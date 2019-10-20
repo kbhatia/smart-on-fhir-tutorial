@@ -180,7 +180,7 @@ This tutorial is designed to have a minimal footprint so we made the decision to
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">'X-UA-Compatible'</span> <span class="na">content=</span><span class="s">'IE=edge'</span> <span class="nt">/&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">'Content-Type'</span> <span class="na">content=</span><span class="s">'text/html; charset=utf-8'</span> <span class="nt">/&gt;</span>
-    <span class="nt">&lt;title&gt;</span>[YOUR-USERNAME] Example-SMART-App<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;title&gt;</span>[kbhatia] Example-SMART-App<span class="nt">&lt;/title&gt;</span>
     ...
 </code></pre>
 
@@ -272,7 +272,8 @@ After initially registering your SMART app, it can take up to 10 minutes for you
 
 <p>We have now created our own SMART app and registered that app with Cerner to access the FHIR resources. Before we continue on with the next steps, let&rsquo;s take a moment to talk about the flow of a SMART app launch.</p>
 
-<p>The SMART app launch flow begins with the EHR. Through some method, a user has indicated that they wish to launch a smart application. The EHR redirects to the SMART <code class="prettyprint">Launch URI</code> that was registered above.</p>
+<p>The SMART app launch flow begins with the EHR. Through some method, a 
+  has indicated that they wish to launch a smart application. The EHR redirects to the SMART <code class="prettyprint">Launch URI</code> that was registered above.</p>
 
 <p>In this example <code class="prettyprint">Launch URI</code> is launch.html. launch.html redirects to the FHIR authorization server which in-turn redirects to the <code class="prettyprint">Redirect URI</code>, index.html, upon a successful authentication.</p>
 
